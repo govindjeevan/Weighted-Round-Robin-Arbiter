@@ -1,0 +1,35 @@
+******************************************
+WEIGHTED (INDEX BASED) ROUND ROBIN ARBITER
+******************************************
+
+Govind Jeevan 16CO221
+Bidyadhar Mohanty 16CO212
+
+___________________________________________
+
+The inputs are the Request pins.
+
+High means, that port is requesting for the resource. (Such as RAM)
+The Grant pins are the outputs.
+If a grant pin is high, it means, that port it being allocated
+the resource by the arbiter at that moment.
+
+Each port maybe a CPU, GPU or any component that competes for a resource such as memory.
+
+
+When there are multiple requests for the same resource, the round robin arbiter allocates the resource for each of the requests for a specific period of time, in order.
+
+The Arbiter goes back to the first served request when all the requests have been granted once.
+
+_____________________________________________________________________
+
+
+USAGE INSTRUCTIONS:
+
+1. Set any combination of active reqests on the input side.
+2. Enable simulation, ticks enabled.
+3. Request ports can be activated and deactivated during the process.
+
+The output side will show the round robin scheme or arbitration and seven-segmented displays the currently granted request index.
+
+
