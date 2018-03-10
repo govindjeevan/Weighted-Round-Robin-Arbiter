@@ -4,7 +4,10 @@ Run verilog code
 
 > verilog filename.v
 
-( Verilog code for Behavioral and Data Flow Modelling included )
+- DM : Dataflow Modelling
+- BM : Behavioral Modelling
+- t : Test Bench
+- .vcd : gtkwave results
 
 Download and Install Logisim to view the Logisim project files.
 
